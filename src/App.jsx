@@ -2,6 +2,8 @@
 
 import banner from "../src/assets/banner.jpg"
 import hostelImage from '../src/assets/hostel.jpg'
+import roomImage from '../src/assets/room.png'
+
 import person1 from '../src/assets/person1.jpg'
 function App() {
 
@@ -64,6 +66,7 @@ function App() {
 
          <div className='grid grid-cols-3 gap-5 '>
          <div className=' h-[100px] w-full bg-gray-300  rounded border-2 border-gray-400 flex items-center justify-center'>
+          <img className="h-[50px] w-[50px] p-2" src={roomImage} alt="roomImage"/>
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>Room</h6>
           </div>
 
@@ -131,6 +134,38 @@ function App() {
               </div>
           </div>
         </div>
+        <footer className="bg-gray-700 p-4   flex justify-between text-white mt-10">
+        <div >
+          <h2 className="font-bold text-xl">Sign Up For Our Page</h2>
+          <button className="border-2 p-2 my-6 font-semibold bg-amber-200 text-xl rounded-xl px-8 text-black">Subscribe </button>
+        </div>
+
+          <div>
+            <ul >
+              <h2 className="text-xl font-bold">Institute</h2>
+              <li>Description</li>
+              <li>Project</li>
+              <li>News</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h2 className="text-xl font-bold">Student</h2>
+              <li>Final Project</li>
+              <li>Exchange</li>
+              <li>Virtual Classroom</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h2 className="text-xl font-bold">Blogs</h2>
+              <li>Graphic Design</li>
+              <li>Interior Design</li>
+              <li>Fashion Design</li>
+            </ul>
+          </div>
+          
+        </footer>
       </div>
     </>
   )
