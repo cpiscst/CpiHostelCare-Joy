@@ -3,8 +3,13 @@
 import banner from "../src/assets/banner.jpg"
 import hostelImage from '../src/assets/hostel.jpg'
 import roomImage from '../src/assets/room.png'
-
+import dinnerImage from '../src/assets/dinner.png'
+import eventImage from '../src/assets/event.png'
+import cctvImage  from '../src/assets/cctv.png'
+import wifiImage from '../src/assets/wifi.png'
+import cleannerImage from '../src/assets/cleaner.png'
 import person1 from '../src/assets/person1.jpg'
+import hometutorImage from '../src/assets/hometutor.png'
 function App() {
 
   return (
@@ -71,23 +76,29 @@ function App() {
           </div>
 
           <div className=' h-[100px] w-full rounded border-2 border-gray-400 flex items-center justify-center bg-gray-300'>
+            <img className="h=[50px] w-[50px] p-2"  src={dinnerImage} alt="dinnerImage"/> 
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>Meal</h6>
           </div>
 
           <div className=' h-[100px] w-full rounded border-2 border-gray-400 flex items-center justify-center bg-gray-300'>
+          <img className="h=[50px] w-[50px] p-2"  src={eventImage} alt="eventImage"/>
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>Event</h6>
           </div>
 
           <div className=' h-[100px] w-full rounded border-2 border-gray-400 flex items-center justify-center bg-gray-300'>
+          <img className="h=[50px] w-[50px] p-2"  src={cctvImage} alt="cctvImage"/>
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>Security</h6>
           </div>
           <div className=' h-[100px] w-full rounded border-2 border-gray-400 flex items-center justify-center bg-gray-300'>
+          <img className="h=[50px] w-[50px] p-2"  src={wifiImage} alt="wifiImage"/>
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>WiFi</h6>
           </div>
           <div className=' h-[100px] w-full rounded border-2 border-gray-400 flex items-center justify-center bg-gray-300'>
+              <img className="p-2 h=[50px] w=[50px]" src={cleanerImage} alt="cleanerImage"/>
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>Clening</h6>
           </div>
           <div className=' h-[100px] w-full rounded border-2 border-gray-400 flex items-center justify-center bg-gray-300'>
+              <img className="p-2 h-[50px] w-[50px]" src={hometutorImage} alt="hometutorImage"/>
               <h6 className='uppercase text-3xl font-semibold text-center text-gray-800'>Home Tutor</h6>
           </div>
          </div>
