@@ -11,6 +11,7 @@ import hometutorImage from "../src/assets/hometutor.png";
 import hostelsuperImage from '../src/assets/hostelsuper.png'
 import hostelmanegerImage from '../src/assets/hostelmaneger.png'
 import chatserviceImage from '../src/assets/chatservice.png'
+
 function App() {
   return (
     <>
@@ -200,7 +201,7 @@ function App() {
              </div>
             </div>
 
-            <div className="h-[350px] w-[300px] border-2 rounded-xl p-2 flex justify-center">
+            <div className="h-[350px] w-[300px] border-2 rounded-xl p-2 flex justify-center ">
              <div>
              <figure className="flex justify-center pt-1">
                 <img src={hostelmanegerImage} className="h-[200px]" alt="hostel maneger "></img>
@@ -214,13 +215,18 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="bg-amber-100 p-10">
-          <h2 className="font-bold text-4xl font-stretch-condensed">Contact Us</h2>
+        <div className="bg-amber-100 m-10 p-10  flex justify-between">
+          
           <div>
+          <h2 className="font-bold text-4xl font-stretch-condensed">Contact Us</h2>
             <input type="text" placeholder="Name" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
             <input type="text" placeholder="E-Mail" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
             <input type="text" placeholder="Message" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
             <button className="rounded font-bold text-xl bg-yellow-500 p-2 mt-4 text-white  ">Submit</button>
+       
+          </div>
+          <div>
+          <img className="h-[300px] w-full" src={chatserviceImage} alt="chatserviceImage"/>
           </div>
           
         </div>
