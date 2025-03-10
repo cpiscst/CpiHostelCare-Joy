@@ -10,7 +10,7 @@ import housingdirectorImage from "../src/assets/housingdirector.png";
 import hometutorImage from "../src/assets/hometutor.png";
 import hostelsuperImage from '../src/assets/hostelsuper.png'
 import hostelmanegerImage from '../src/assets/hostelmaneger.png'
-import chatserviceImage from '../src/assets/chatservice.png'
+import contactImage from '../src/assets/contact.png'
 
 function App() {
   return (
@@ -173,7 +173,7 @@ function App() {
         </div>
 
         {/* Our Member */}
-        <div className="mt-10">
+        <div className="mt-10 ">
           <h2 className="text-5xl font-bold text-center my-8">Our Member</h2>
           <div className="grid grid-cols-3 gap-5">
             <div className="h-[350px] w-[300px] border-2 rounded-xl flex justify-center">
@@ -215,18 +215,18 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="bg-amber-100 m-10 p-10  flex justify-between">
-          
-          <div>
+        <div className="bg-sky-300 mt-8 p-8 flex item-center justify-between">
+        
+          <div className="item-center">
           <h2 className="font-bold text-4xl font-stretch-condensed">Contact Us</h2>
-            <input type="text" placeholder="Name" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
+            <input type="text" placeholder="Name" className=" rounded bg-white  font-bold text-md p-2 block m-2"/>
             <input type="text" placeholder="E-Mail" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
-            <input type="text" placeholder="Message" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
+            <input type="text" placeholder="Message" className=" rounded bg-white  font-bold text-md p-2 block m-2"/>
             <button className="rounded font-bold text-xl bg-yellow-500 p-2 mt-4 text-white  ">Submit</button>
        
           </div>
           <div>
-          <img className="h-[300px] w-full" src={chatserviceImage} alt="chatserviceImage"/>
+          <img className="h-[300px] w-full" src={contactImage} alt="contactImage"/>
           </div>
           
         </div>
