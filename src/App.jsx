@@ -112,7 +112,7 @@ function App() {
                   alt="eventImage"
                 />
               </figure>
-
+           
               <h6 className="uppercase text-3xl font-semibold  text-black">
                 Event
               </h6>
@@ -126,6 +126,8 @@ function App() {
                   alt="cctvImage"
                 />
               </figure>
+             
+
               <h6 className="uppercase text-3xl font-semibold  text-black">
                 Security
               </h6>
@@ -215,7 +217,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="bg-sky-300 mt-8 p-8 flex item-center justify-between">
+        <div className="bg-sky-100 mt-8 p-8 flex item-center justify-between">
         
           <div className="item-center">
           <h2 className="font-bold text-4xl font-stretch-condensed">Contact Us</h2>
