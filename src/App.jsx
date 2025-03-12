@@ -1,5 +1,5 @@
-import banner from "../src/assets/banner.jpg";
-import hostelImage from "../src/assets/hostel.jpg";
+
+
 import roomImage from "../src/assets/room.png";
 import dinnerImage from "../src/assets/dinner.png";
 import eventImage from "../src/assets/event.png";
@@ -11,7 +11,8 @@ import hometutorImage from "../src/assets/hometutor.png";
 import hostelsuperImage from '../src/assets/hostelsuper.png'
 import hostelmanegerImage from '../src/assets/hostelmaneger.png'
 import contactImage from '../src/assets/contact.png'
-
+import logoImage from '../src/assets/logo.png'
+import bannerImage from '../src/assets/banner1.jpg'
 function App() {
   return (
     <>
@@ -19,14 +20,10 @@ function App() {
         {/* Navbar Section */}
         <nav className="flex justify-between items-center bg-gray-300 h-[60px] px-2">
           <div>
-            {/* <a href={"/"}>
-            <img className='h-[50px] w-[50px]' src={logo} alt='Logo'/>
-            </a> */}
-            <a href="/">
-              <h2 className="uppercase font-bold text-2xl text-gray-700">
-                <span className=" pr-1">CPI</span>Hostel Care
-              </h2>
+            <a href={"/"}>
+            <img className='h-[50px] w-[50px]' src={logoImage} alt='logoImage'/>
             </a>
+           
           </div>
 
           <div>
@@ -47,20 +44,20 @@ function App() {
           </div>
 
           <div className="space-x-2">
-            <button className="p-2 cursor-pointer bg-purple-600 text-white rounded">
+            <button className="p-2 cursor-pointer bg-gray-600 text-white rounded">
               SignIn
             </button>
-            <button className="p-2 bg-blue-400 cursor-pointer text-white rounded">
+            <button className="p-2 bg-gray-600 cursor-pointer text-white rounded">
               SignUp
             </button>
           </div>
         </nav>
 
         {/* Bannar Section */}
-        <div className="h-[500px] w-full  flex justify-between sm:bg-[url(../src/assets/banner.jpg)] opacity-70 object-cover bg-no-repeat bg-right  border-2 border-gray-200 p-2">
-          <div className="h-full flex justify-center items-center">
-            <div className="text-center">
-              <h2 className="md:text-5xl text-3xl font-bold uppercase text-gray-900 text-center">
+        <div className="items-center  flex justify-between  border-gray-200 p-2">
+         <div>
+         <div className="text-center">
+              <h2 className="md:text-7xl text-5xl font-bold uppercase text-gray-900 text-center">
                 Welcome
                 <span className="block">to</span>
                 <span className="block ">
@@ -71,7 +68,10 @@ function App() {
                 Get Started
               </button>
             </div>
-          </div>
+         </div>
+        <div>
+        <img className="h-[500px] w-[500px] " src={bannerImage} alt="bannerImage"/>
+        </div>
         </div>
         {/* Service Section */}
         <div>
@@ -219,11 +219,11 @@ function App() {
         </div>
         <div className="bg-sky-100 mt-8 p-8 flex item-center justify-between">
         
-          <div className="item-center">
-          <h2 className="font-bold text-4xl font-stretch-condensed">Contact Us</h2>
-            <input type="text" placeholder="Name" className=" rounded bg-white  font-bold text-md p-2 block m-2"/>
-            <input type="text" placeholder="E-Mail" className="rounded bg-white  font-bold text-md p-2 block m-2"/>
-            <input type="text" placeholder="Message" className=" rounded bg-white  font-bold text-md p-2 block m-2"/>
+          <div className="item-center space-y-3">
+          <h2 className="font-bold text-4xl font-stretch-condensed py-4">Contact Us</h2>
+            <input type="text" placeholder="Name" className=" rounded bg-white  font-bold text-md p-2 block  "/>
+            <input type="text" placeholder="E-Mail" className="rounded bg-white  font-bold text-md p-2 block "/>
+            <input type="text" placeholder="Message" className=" rounded bg-white  font-bold text-md p-2 block  "/>
             <button className="rounded font-bold text-xl bg-yellow-500 p-2 mt-4 text-white  ">Submit</button>
        
           </div>
